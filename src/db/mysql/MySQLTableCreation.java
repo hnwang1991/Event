@@ -74,7 +74,7 @@ public class MySQLTableCreation {
 			
 			// Step 4: insert fake user 1111/3229c1097c00d497a0fd282d586be050
 			// password: using hash function to hash, insure security
-			sql = "INSERT INTO users VALUES ('1111', '3229c1097c00d497a0fd282d586be050', 'John', 'Smith')";
+			sql = "INSERT INTO users VALUES ('1111', '3229c1097c00d497a0fd282d586be050', 'Henry', 'Wang')";
 			stmt.executeUpdate(sql);
 
 

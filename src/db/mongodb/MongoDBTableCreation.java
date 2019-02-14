@@ -28,7 +28,7 @@ public class MongoDBTableCreation {
 		// Step 4, insert fake user data and create index.
 		db.getCollection("users").insertOne(
 				new Document().append("user_id", "1111").append("password", "3229c1097c00d497a0fd282d586be050")
-						.append("first_name", "John").append("last_name", "Smith"));
+						.append("first_name", "Henry").append("last_name", "Wang"));
 
 		mongoClient.close();
 		System.out.println("Import is done successfully.");
